@@ -1,0 +1,58 @@
+/*************** LAYOUT *****************/
+
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+a {
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+.header {
+    display:flex;
+    justify-content:right;
+    height: 40px;
+    text-align: right;
+    align-items: center;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.nav {
+    width: 400px;
+    margin: 20px auto 0;
+    align-items: center;
+}
+
+.section{
+    display:flex;
+    width: 440px;
+    height: 30px;
+    margin: 20px auto 0;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.article {
+    width: 420px;
+    height: 30px;
+    margin: 20px auto 0;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer {
+    display: table;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;   
+}
+
+.font-large {
+    font-size: medium;
+}
